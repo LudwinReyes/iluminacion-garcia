@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Sitemaps
+Sitemap: https://iluminacioneseyg.com/sitemap_index.xml
+
+# AI Crawlers - Explicit Management
+User-agent: GPTBot
+Disallow: /wp-admin/
+Allow: /
+Crawl-delay: 5
+
+User-agent: ChatGPT-User
+Disallow: /wp-admin/
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /wp-admin/
+Allow: /
+Crawl-delay: 5
+
+User-agent: PerplexityBot
+Disallow: /wp-admin/
+Allow: /
+
+User-agent: Google-Extended
+Disallow: /wp-admin/
+Allow: /

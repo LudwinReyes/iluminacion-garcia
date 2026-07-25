@@ -104,3 +104,22 @@ RewriteRule . /index.php [L]
 	SetEnv noabort 1
 </IfModule>
 # END LiteSpeed
+
+# BEGIN Security Headers
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Enable XSS protection in older browsers
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Control referrer information
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Force HTTPS (HSTS)
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+# END Security Headers

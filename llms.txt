@@ -1,0 +1,25 @@
+# Iluminaciones García S.A.C.
+
+> Iluminación profesional y soluciones eléctricas en el Perú. Confianza para tu trabajo diario.
+
+## Información de la Empresa
+- **Sitio Web Principal:** https://iluminacioneseyg.com/
+- **WhatsApp:** (+51) 984 135 314
+- **Correo Electrónico:** edinsongarcia0806@gmail.com
+- **Dirección:** Plaza Dos de Mayo, Lima, Perú
+
+## Secciones Principales
+- [Inicio](https://iluminacioneseyg.com/) - Página de inicio con banners de productos, mapa de ubicación de la tienda física y novedades.
+- [Nosotros](https://iluminacioneseyg.com/nosotros/) - Historia de la empresa, misión, visión y valores de Iluminaciones García.
+- [Tienda](https://iluminacioneseyg.com/shop/) - Catálogo de productos de iluminación, cables eléctricos, llaves térmicas y repuestos industriales.
+- [Carrito](https://iluminacioneseyg.com/carrito/) - Carrito de compras para cotizaciones y pedidos.
+- [Blog](https://iluminacioneseyg.com/blog-2/) - Artículos informativos sobre proyectos de iluminación y consejos técnicos.
+- [Contáctanos](https://iluminacioneseyg.com/contactanos/) - Información de contacto, mapa de Google Maps y formulario de consultas.
+
+## Artículos de Blog Destacados
+- [Mejores luminarias para jardines: Guía de iluminación exterior](https://iluminacioneseyg.com/mejores-luminarias-para-jardines/) - Recomendaciones de estacas, guirnaldas y proyectores con alto índice IP.
+- [Tipos de luz: neutra, cálida y fría y cómo elegirlas](https://iluminacioneseyg.com/tipos-de-luz-neutra-calida-fria/) - Guía práctica sobre la temperatura de color en Kelvin para diferentes espacios.
+- [Guía Completa de Luces de Emergencia: Modelo LT-4860 de LT USA](https://iluminacioneseyg.com/importancia-luces-emergencia-lt-4860/) - Beneficios, instalación, mantenimiento y 9 horas de autonomía del modelo LT-4860.
+- [Reflector LED Solar 1000W: Beneficios del Modelo SOLAR LIGHT](https://iluminacioneseyg.com/reflector-led-solar-1000w-guia-beneficios/) - Iluminación potente para exteriores con costo eléctrico cero, sensor de luz e impermeabilidad IP67.
+- [Luminaria Solar Philips BRC010](https://iluminacioneseyg.com/luminaria-solar-philips-brc010-guia/) - Detalles sobre la luminaria solar Philips de 4000 lúmenes con protección IK08.
+- [Luminaria Philips BRP493 200W](https://iluminacioneseyg.com/luminaria-philips-brp493-200w-alumbrado-publico/) - Análisis de la luminaria para alumbrado público de 28,500 lúmenes y 100,000 horas de vida útil.
