@@ -1,0 +1,10 @@
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/upgrade/
+*.log
+error_log
+*.sql
+*.zip

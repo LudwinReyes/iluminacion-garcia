@@ -1,0 +1,307 @@
+# Translation of Plugins - OneClick Chat to Order - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - OneClick Chat to Order - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-06 15:09:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - OneClick Chat to Order - Stable (latest release)\n"
+
+#: admin/tabs/tutorial-support.php:87
+msgid "More:"
+msgstr "Más:"
+
+#: admin/tabs/tutorial-support.php:63
+msgid "walterpinem.me"
+msgstr "walterpinem.me"
+
+#: admin/tabs/tutorial-support.php:55
+msgid "Author:"
+msgstr "Autor:"
+
+#: admin/tabs/display-option.php:241
+msgid "This will hide product quantity option field."
+msgstr "Esto ocultará el campo de opción de cantidad de producto."
+
+#: admin/tabs/button-config.php:292
+msgid "Exclusion"
+msgstr "Exclusión"
+
+#: admin/tabs/tutorial-support.php:61
+msgid "Website:"
+msgstr "Web:"
+
+#: admin/tabs/display-option.php:237
+msgid "Hide Product Quantity Option?"
+msgstr "¿Ocultar la opción de cantidad de producto?"
+
+#: admin/tabs/button-config.php:312
+msgid "Yes, exclude price in WhatsApp message."
+msgstr "Si, excluir el precio en el mensaje de WhatsApp."
+
+#: admin/tabs/button-config.php:308 admin/tabs/shop-page.php:147
+msgid "Exclude Price?"
+msgstr "¿Excluir el precio?"
+
+#: admin/tabs/welcome.php:95
+msgid "Display This or Hide That"
+msgstr "Mostrar esto u ocultar eso"
+
+#: admin/tabs/welcome.php:75
+msgid "Step #6:"
+msgstr "Paso #6:"
+
+#: admin/tabs/welcome.php:74
+msgid "Step #5:"
+msgstr "Paso #5:"
+
+#: admin/tabs/welcome.php:73
+msgid "Step #4:"
+msgstr "Paso #4:"
+
+#: admin/tabs/welcome.php:72
+msgid "Step #3:"
+msgstr "Paso #3:"
+
+#: admin/tabs/welcome.php:71
+msgid "Step #2:"
+msgstr "Paso #2:"
+
+#: admin/tabs/welcome.php:70
+msgid "Step #1:"
+msgstr "Paso #1:"
+
+#: admin/tabs/welcome.php:68
+msgid "Let's Get Started"
+msgstr "Empecemos"
+
+#: admin/tabs/floating-button.php:179
+msgid "e.g. Let's Chat"
+msgstr "ej. Vamos a chatear"
+
+#: admin/tabs/display-option.php:333 admin/tabs/display-option.php:362
+#: admin/tabs/floating-button.php:156 admin/tabs/floating-button.php:157
+#: admin/tabs/floating-button.php:391 admin/tabs/floating-button.php:420
+#: admin/tabs/floating-button.php:451 admin/tabs/floating-button.php:480
+msgid "Right"
+msgstr "Derecha"
+
+#: admin/tabs/display-option.php:341 admin/tabs/display-option.php:370
+#: admin/tabs/floating-button.php:155 admin/tabs/floating-button.php:399
+#: admin/tabs/floating-button.php:428 admin/tabs/floating-button.php:459
+#: admin/tabs/floating-button.php:488
+msgid "Left"
+msgstr "Izquierda"
+
+#: admin/tabs/button-config.php:244
+msgid "e.g. Hello, I want to buy:"
+msgstr "ej. Hola, me gustaría comprar:"
+
+#: admin/tabs/floating-button.php:83 admin/tabs/generate-shortcode.php:122
+#: admin/tabs/generate-shortcode.php:217 admin/tabs/generate-shortcode.php:310
+msgid "e.g. Hello, I need to know more about"
+msgstr "ej. Hola, necesito saber más sobre"
+
+#: admin/wa-admin-page.php:450
+msgid "Support"
+msgstr "Soporte"
+
+#: admin/wa-admin-page.php:448
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/wa-admin-page.php:439
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#. Author of the plugin
+#: whatsapp-order.php
+msgid "Walter Pinem"
+msgstr "Walter Pinem"
+
+#: admin/tabs/display-option.php:30 admin/tabs/floating-button.php:142
+msgid "Display Options"
+msgstr "Mostrar las opciones"
+
+#: admin/tabs/welcome.php:111 admin/tabs/welcome.php:112
+msgid "Comprehensive Documentation"
+msgstr "Completa documentación"
+
+#: admin/tabs/welcome.php:108
+msgid "Are the previous options still not enough for you? You can extend the flexibility to display a WhatsApp button using a shortcode, which you can generate easily."
+msgstr "¿Las opciones anteriores no son suficientes para ti? Puedes ampliar la flexibilidad para mostrar un botón de WhatsApp utilizando un shortcode, que puedes generar fácilmente."
+
+#: admin/tabs/welcome.php:106 admin/tabs/welcome.php:107
+msgid "Shortcode Generator"
+msgstr "Generador de shortcode"
+
+#: admin/tabs/welcome.php:101
+msgid "The regulations are real and it's time to make your site ready for them. Make your site GDPR-ready with some simple configurations, really easy!"
+msgstr "Las normas son reales y es hora de preparar tu sitio para ellas. Haz que tu sitio esté preparado para el RGPD con algunas sencillas configuraciones, ¡realmente fácil!"
+
+#: admin/tabs/welcome.php:96
+msgid "Wanna hide some buttons or elements you don't like? You have the command to rule them all. Just visit the panel and all of the options are there to configure."
+msgstr "¿Quieres ocultar algunos botones o elementos que no te gustan? Tienes el dominio para controlarlos todos. Simplemente visita el panel y todas las opciones están ahí para configurarlas."
+
+#: admin/tabs/welcome.php:89
+msgid "Make it easy for any customers/visitors to reach you out through a click of a floating WhatsApp button, displayed on the left of right with tons of customization options."
+msgstr "Haz que sea fácil para cualquier cliente/visitante comunicarse contigo haciendo clic en un botón flotante de WhatsApp, que se muestra a la izquierda o derecha con toneladas de opciones de personalización."
+
+#: admin/tabs/welcome.php:87 admin/tabs/welcome.php:88
+msgid "Fancy Floating Button"
+msgstr "Botón flotante elegante"
+
+#: admin/tabs/welcome.php:27
+msgid "Make It Easy for Customers to Reach You!"
+msgstr "¡Haz que tus clientes contacten contigo fácilmente!"
+
+#: admin/tabs/gdpr-notice.php:113
+msgid "Privacy Policy Page"
+msgstr "Página de la política de privacidad"
+
+#: admin/tabs/gdpr-notice.php:102
+msgid "GDPR Message"
+msgstr "Mensaje RGPD"
+
+#: admin/tabs/gdpr-notice.php:97
+msgid "Enable GDPR Notice"
+msgstr "Activar el aviso del RGPD"
+
+#: admin/tabs/display-option.php:261
+msgid "This will hide Add to Cart button."
+msgstr "Esto ocultará el botón «Añadir al carrito»."
+
+#: admin/tabs/display-option.php:257 admin/tabs/shop-page.php:95
+#: includes/wa-metabox.php:97
+msgid "Hide Add to Cart button?"
+msgstr "¿Ocultar el botón «Añadir al carrito»?"
+
+#: admin/tabs/display-option.php:251
+msgid "This will hide price in Product page."
+msgstr "Esto ocultará el precio en la página del producto."
+
+#: admin/tabs/display-option.php:247
+msgid "Hide Price in Product Page?"
+msgstr "¿Ocultar el precio en la página del producto?"
+
+#: admin/tabs/display-option.php:220 admin/tabs/display-option.php:392
+#: admin/tabs/display-option.php:499 admin/tabs/display-option.php:530
+msgid "This will hide WhatsApp Button on Desktop."
+msgstr "Esto ocultará el botón de WhatsApp en equipos de escritorio."
+
+#: admin/tabs/floating-button.php:195
+msgid "This will hide Floating Button on Mobile."
+msgstr "Esto ocultará el botón flotante en móviles."
+
+#: admin/tabs/floating-button.php:190
+msgid "Hide Floating Button on Mobile?"
+msgstr "¿Ocultar el botón flotante en móviles?"
+
+#: admin/tabs/floating-button.php:175
+msgid "Button Tooltip"
+msgstr "Información emergente del botón"
+
+#: admin/tabs/floating-button.php:168
+msgid "This will show a custom tooltip"
+msgstr "Esto mostrará una información emergente personalizada"
+
+#: admin/tabs/floating-button.php:163
+msgid "Display Tooltip?"
+msgstr "¿Mostrar la información emergente?"
+
+#: admin/tabs/floating-button.php:151
+msgid "Floating Button Position"
+msgstr "Posición del botón flotante"
+
+#: admin/tabs/floating-button.php:37
+msgid "This will show floating WhatsApp Button"
+msgstr "Esto mostrará un botón flotante de WhatsApp"
+
+#: admin/tabs/floating-button.php:33
+msgid "Display Floating Button?"
+msgstr "¿Mostrar el botón flotante?"
+
+#: admin/tabs/floating-button.php:26
+msgid "Enable / disable a floating WhatsApp button on your entire pages. You can configure the floating button below."
+msgstr "Activa / Desactiva un botón flotante de WhatsApp en todas las páginas. Puedes configurar el botón flotante a continuación."
+
+#: admin/tabs/button-config.php:283 admin/tabs/cart-button.php:181
+#: admin/tabs/floating-button.php:132 admin/tabs/generate-shortcode.php:332
+#: admin/tabs/shop-page.php:184 admin/tabs/thanks-page.php:332
+msgid "Yes, Open in New Tab"
+msgstr "Si, abrir en una nueva pestaña"
+
+#: admin/tabs/button-config.php:279 admin/tabs/cart-button.php:177
+#: admin/tabs/floating-button.php:128 admin/tabs/generate-shortcode.php:226
+#: admin/tabs/generate-shortcode.php:328 admin/tabs/shop-page.php:180
+#: admin/tabs/thanks-page.php:328
+msgid "Open in New Tab?"
+msgstr "¿Abrir en una nueva pestaña?"
+
+#: includes/multiple-numbers.php:74
+msgid "e.g. 6281234567890"
+msgstr "ej. 3481234567890"
+
+#: admin/tabs/button-config.php:154 admin/tabs/cart-button.php:60
+#: admin/tabs/floating-button.php:45 admin/tabs/generate-shortcode.php:42
+#: admin/tabs/generate-shortcode.php:172 admin/tabs/generate-shortcode.php:265
+#: admin/tabs/shop-page.php:60 admin/tabs/thanks-page.php:45
+#: includes/multiple-numbers.php:31 includes/multiple-numbers.php:71
+msgid "WhatsApp Number"
+msgstr "Número de WhatsApp"
+
+#: admin/tabs/generate-shortcode.php:145 admin/tabs/generate-shortcode.php:238
+#: admin/tabs/generate-shortcode.php:319
+msgid "Copy Shortcode"
+msgstr "Copiar el shortcode"
+
+#: admin/tabs/button-config.php:241 admin/tabs/cart-button.php:123
+#: admin/tabs/display-option.php:568 admin/tabs/floating-button.php:80
+#: admin/tabs/generate-shortcode.php:119 admin/tabs/generate-shortcode.php:214
+#: admin/tabs/generate-shortcode.php:307 admin/tabs/shop-page.php:125
+#: admin/tabs/thanks-page.php:90 includes/wa-metabox.php:82
+msgid "Custom Message"
+msgstr "Mensaje personalizado"
+
+#: admin/tabs/button-config.php:263 admin/tabs/generate-shortcode.php:108
+#: admin/tabs/generate-shortcode.php:208 admin/tabs/generate-shortcode.php:301
+msgid "e.g. Order via WhatsApp"
+msgstr "ej. Pedir por WhatsApp"
+
+#: admin/tabs/button-config.php:260 admin/tabs/cart-button.php:113
+#: admin/tabs/generate-shortcode.php:105 admin/tabs/generate-shortcode.php:205
+#: admin/tabs/generate-shortcode.php:298 admin/tabs/shop-page.php:115
+#: admin/tabs/thanks-page.php:78
+msgid "Text on Button"
+msgstr "Texto del botón"
+
+#: admin/tabs/generate-shortcode.php:20
+msgid "Generate Shortcode"
+msgstr "Generar el shortcode"
+
+#: admin/tabs/gdpr-notice.php:84
+msgid "GDPR Notice"
+msgstr "Aviso del RGPD"
+
+#: admin/tabs/floating-button.php:24
+msgid "Floating Button"
+msgstr "Botón flotante"
+
+#. translators: 1. example message for custom input
+#: admin/tabs/floating-button.php:89
+msgid "Enter custom message, e.g. %1$sHello, I need to know more about%2$s"
+msgstr "Introduce un mensaje personalizado, ej. %1$sHola, necesito saber más sobre%2$s"
+
+#. translators: 1. example custom message wrapped in <code> tag
+#: admin/tabs/button-config.php:250
+msgid "Fill this form with a custom message, e.g. %1$sHello, I want to buy:%2$s"
+msgstr "Rellena este formulario con un mensaje personalizado, ej. %1$sHola, quiero comprar:%2$s"
+
+#. Author URI of the plugin
+#: whatsapp-order.php
+msgid "https://walterpinem.com/"
+msgstr "https://walterpinem.com/"
