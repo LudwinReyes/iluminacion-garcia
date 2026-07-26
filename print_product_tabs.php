@@ -1,18 +1,13 @@
 <?php
 require_once('wp-load.php');
-$args = array(
-    'limit' => 1,
-    'status' => 'publish',
-);
-$products = wc_get_products($args);
-if (!empty($products)) {
-    $product_obj = $products[0];
+$product_obj = wc_get_product(19616);
+if ($product_obj) {
     $post = get_post($product_obj->get_id());
     setup_postdata($post);
     $GLOBALS['product'] = $product_obj;
     $tabs = apply_filters('woocommerce_product_tabs', array());
     echo "Product: " . $product_obj->get_name() . " (ID: " . $product_obj->get_id() . ")\n";
-    print_r(array_keys($tabs));
+    print_r($tabs);
 } else {
-    echo "No product found\n";
+    echo "Product 19616 not found\n";
 }
