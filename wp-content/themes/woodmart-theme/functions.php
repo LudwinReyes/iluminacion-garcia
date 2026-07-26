@@ -64,11 +64,11 @@ function add_custom_peru_states( $states ) {
     return $states;
 }
 
-// Remove Ficha técnica tab (additional_tab_2) from single product page
+// Remove Ficha técnica tab (wd_additional_tab_2) from single product page
 add_filter( 'woocommerce_product_tabs', 'remove_ficha_tecnica_tab', 99 );
 function remove_ficha_tecnica_tab( $tabs ) {
-    if ( isset( $tabs['additional_tab_2'] ) ) {
-        unset( $tabs['additional_tab_2'] );
+    if ( isset( $tabs['wd_additional_tab_2'] ) ) {
+        unset( $tabs['wd_additional_tab_2'] );
     }
     return $tabs;
 }
