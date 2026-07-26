@@ -108,7 +108,7 @@ RewriteRule . /index.php [L]
 # BEGIN Security Headers
 <IfModule mod_headers.c>
     # Prevent clickjacking
-    Header set X-Frame-Options "SAMEORIGIN"
+    # Header set X-Frame-Options "SAMEORIGIN"
     
     # Prevent MIME sniffing
     Header set X-Content-Type-Options "nosniff"
