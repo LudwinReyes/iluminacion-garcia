@@ -50,3 +50,16 @@ woodmart_load_classes();
 new XTS\Theme();
 
 define( 'WOODMART_VERSION', woodmart_get_theme_info( 'Version' ) );
+
+// Add states for Peru in WooCommerce to resolve Google Listings validation loop
+add_filter( 'woocommerce_states', 'add_custom_peru_states' );
+function add_custom_peru_states( $states ) {
+    $states['PE'] = array(
+        'LMA' => 'Lima Metropolitana',
+        'LIM' => 'Lima',
+        'CAL' => 'Callao',
+        'ARE' => 'Arequipa',
+        'CUS' => 'Cusco',
+    );
+    return $states;
+}
