@@ -1,8 +1,8 @@
 <?php
 require_once('wp-load.php');
 if (class_exists('Yoast\WP\Lib\Dependency_Injection\Container_Registry')) {
-    $repository = Yoast\WP\Lib\Dependency_Injection\Container_Registry::get('Yoast\WP\SEO\Repositories\Indexable_Repository', 'wpseo');
-    $builder = Yoast\WP\Lib\Dependency_Injection\Container_Registry::get('Yoast\WP\SEO\Builders\Indexable_Builder', 'wpseo');
+    $repository = Yoast\WP\Lib\Dependency_Injection\Container_Registry::get('Yoast\WP\SEO\Repositories\Indexable_Repository', 'yoast-seo');
+    $builder = Yoast\WP\Lib\Dependency_Injection\Container_Registry::get('Yoast\WP\SEO\Builders\Indexable_Builder', 'yoast-seo');
     
     $indexable = $repository->find_by_id_and_type(4179, 'post');
     if ($indexable) {
