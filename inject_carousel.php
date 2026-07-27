@@ -184,7 +184,8 @@ if ( ! $found ) {
 $new_json = wp_json_encode( $data );
 update_post_meta( $post_id, '_elementor_data', wp_slash( $new_json ) );
 // Also update the CSS cache version
-update_post_meta( $post_id, '_elementor_version', \Elementor\ELEMENTOR_VERSION );
-\Elementor\Plugin::$instance->files_manager->clear_cache();
+// Clear Elementor CSS cache via direct DB flag
+update_post_meta( $post_id, '_elementor_css_file', '' );
+delete_post_meta( $post_id, '_elementor_css_file' );
 
 echo "SUCCESS: Widget $widget_id updated with carousel HTML (" . strlen( $carousel_html ) . " chars)\n";
