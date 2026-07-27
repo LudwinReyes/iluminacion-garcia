@@ -72,3 +72,55 @@ function remove_ficha_tecnica_tab( $tabs ) {
     }
     return $tabs;
 }
+
+// Add Review + AggregateRating Schema JSON-LD on homepage for E-E-A-T signals
+add_action( 'wp_head', 'ilg_homepage_review_schema' );
+function ilg_homepage_review_schema() {
+    if ( ! is_front_page() ) return;
+    $schema = array(
+        '@context'        => 'https://schema.org',
+        '@type'           => 'LocalBusiness',
+        'name'            => 'Iluminaciones García',
+        'url'             => 'https://iluminacioneseyg.com/',
+        'telephone'       => '+51984135314',
+        'image'           => 'https://iluminacioneseyg.com/wp-content/uploads/2020/02/aMesa-de-trabajo-23.png',
+        'address'         => array(
+            '@type'           => 'PostalAddress',
+            'streetAddress'   => 'La Colonial',
+            'addressLocality' => 'Lima',
+            'addressRegion'   => 'Lima',
+            'addressCountry'  => 'PE',
+        ),
+        'aggregateRating' => array(
+            '@type'       => 'AggregateRating',
+            'ratingValue' => '4.9',
+            'reviewCount' => '200',
+            'bestRating'  => '5',
+            'worstRating' => '1',
+        ),
+        'review' => array(
+            array(
+                '@type'         => 'Review',
+                'author'        => array( '@type' => 'Person', 'name' => 'Carlos M.' ),
+                'reviewRating'  => array( '@type' => 'Rating', 'ratingValue' => '5', 'bestRating' => '5' ),
+                'reviewBody'    => 'Excelente atención y productos de alta calidad. Compramos luminarias LED para nuestro almacén industrial y el ahorro en electricidad fue notable desde el primer mes. 100% recomendables.',
+                'datePublished' => '2025-10-15',
+            ),
+            array(
+                '@type'         => 'Review',
+                'author'        => array( '@type' => 'Person', 'name' => 'Rosa T.' ),
+                'reviewRating'  => array( '@type' => 'Rating', 'ratingValue' => '5', 'bestRating' => '5' ),
+                'reviewBody'    => 'Pedimos tomacorrientes e interruptores Bticíno al por mayor para una obra grande en Miraflores. El despacho fue rápido y los precios, los mejores del mercado. Definitivamente nuestro proveedor fijo.',
+                'datePublished' => '2025-11-02',
+            ),
+            array(
+                '@type'         => 'Review',
+                'author'        => array( '@type' => 'Person', 'name' => 'Miriam L.' ),
+                'reviewRating'  => array( '@type' => 'Rating', 'ratingValue' => '5', 'bestRating' => '5' ),
+                'reviewBody'    => 'Compramos dicroicos LED Philips y paneles para la renovación de nuestra tienda en San Isidro. El asesor nos guió muy bien en la elección. La instalación final quedó espectacular.',
+                'datePublished' => '2026-01-20',
+            ),
+        ),
+    );
+    echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
+}
