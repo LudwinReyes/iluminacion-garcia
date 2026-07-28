@@ -124,3 +124,38 @@ function ilg_homepage_review_schema() {
     );
     echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
 }
+
+// Force Twitter Meta Tags for SEO audit validation and social card visibility
+add_action( 'wp_head', 'ilg_force_twitter_meta_tags', 15 );
+function ilg_force_twitter_meta_tags() {
+    if ( is_singular() ) {
+        global $post;
+        $title = get_post_meta( $post->ID, '_yoast_wpseo_title', true );
+        if ( ! $title ) {
+            $title = get_the_title();
+        }
+        $desc = get_post_meta( $post->ID, '_yoast_wpseo_metadesc', true );
+        if ( ! $desc ) {
+            $desc = wp_strip_all_tags( get_the_excerpt() );
+        }
+        $img = get_the_post_thumbnail_url( $post->ID, 'large' );
+    } else {
+        $title = wp_get_document_title();
+        $desc = get_bloginfo( 'description' );
+        $img = 'https://iluminacioneseyg.com/wp-content/uploads/2020/02/aMesa-de-trabajo-23.png';
+    }
+    
+    // Normalize and escape
+    $title = esc_attr( wp_strip_all_tags( $title ) );
+    $desc = esc_attr( wp_strip_all_tags( $desc ) );
+    if ( ! $img ) {
+        $img = 'https://iluminacioneseyg.com/wp-content/uploads/2020/02/aMesa-de-trabajo-23.png';
+    }
+    
+    echo "\n<!-- Yoast/Audit Twitter Meta Fallbacks -->\n";
+    echo '<meta name="twitter:title" content="' . $title . '" />' . "\n";
+    echo '<meta name="twitter:description" content="' . $desc . '" />' . "\n";
+    echo '<meta name="twitter:image" content="' . esc_url( $img ) . '" />' . "\n";
+    echo '<meta name="twitter:site" content="@ilumgarcia" />' . "\n";
+}
+
