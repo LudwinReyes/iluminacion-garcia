@@ -159,3 +159,12 @@ function ilg_force_twitter_meta_tags() {
     echo '<meta name="twitter:site" content="@ilumgarcia" />' . "\n";
 }
 
+// Prevent search engines from indexing RSS feeds
+add_action( 'template_redirect', 'ilg_noindex_feeds', 1 );
+function ilg_noindex_feeds() {
+    if ( is_feed() ) {
+        header( 'X-Robots-Tag: noindex, follow', true );
+    }
+}
+
+

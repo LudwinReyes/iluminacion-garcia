@@ -1,6 +1,9 @@
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
+Disallow: */feed/
+Disallow: *?feed=
+
 
 # Sitemaps
 Sitemap: https://iluminacioneseyg.com/sitemap_index.xml
